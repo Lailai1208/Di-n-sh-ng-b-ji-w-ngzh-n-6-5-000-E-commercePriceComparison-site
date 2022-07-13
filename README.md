@@ -1,1 +1,1 @@
-# Di-n-sh-ng-b-ji-w-ngzh-n-6-5-000-E-commercePriceComparison-site
+# E-commercePriceComparison-site
