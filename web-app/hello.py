@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 
 conn = create_engine(
-    'mysql+mysqlconnector://root:lailai1208@127.0.0.1:3306/sample', echo=False)
+    'mysql+mysqlconnector://bb5f66e391e9a8:e4804ecd@us-cdbr-east-06.cleardb.net/heroku_5357d3fccf98e7a', echo=False)
 
 
 def yahoo(item, item_id):
