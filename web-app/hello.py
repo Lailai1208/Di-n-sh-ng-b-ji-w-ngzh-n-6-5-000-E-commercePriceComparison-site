@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 
 conn = create_engine(
-    'mysql+mysqlconnector://bb5f66e391e9a8:e4804ecd@us-cdbr-east-06.cleardb.net/heroku_5357d3fccf98e7a', echo=False)
+    'mysql+mysqlconnector://admin:lailai1208@database-1.cfm3ewjh9di2.us-east-1.rds.amazonaws.com/sample', echo=False)
 
 
 def yahoo(item, item_id):
@@ -139,4 +139,4 @@ def search():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0")
